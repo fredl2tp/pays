@@ -1,11 +1,10 @@
-import react from 'react';
-import './App.css';
-import Country from './components/Country';
+import "./App.css";
+import Country from "./components/Country";
 
 function App() {
   return (
     <div className="App">
-      <h1>Select country</h1>
+      <h1>Select region</h1>
       <Country />
     </div>
   );
